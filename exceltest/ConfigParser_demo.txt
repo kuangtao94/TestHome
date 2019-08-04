@@ -1,0 +1,10 @@
+[Inc_basic]
+name = iPIN
+tag = 创业 / 互联网 / 大数据
+scale = 50~100人
+
+[Demand]
+sex = 男女不限
+degree = 本科以上
+major = 计算机相关
+

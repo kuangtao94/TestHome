@@ -1,0 +1,17 @@
+[data]
+ip = 127.0.0.1
+port = 3306
+username = root
+password = root
+
+[Linux]
+ip = 192.168.2.1
+port = 20
+username = root
+password = rqfa32134
+
+[Demand]
+sex = 男女不限
+degree = 本科以上
+major = 计算机相关
+
