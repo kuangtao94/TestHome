@@ -3,9 +3,9 @@
 
 #Author:无涯
 
-import  unittest_1
-from page.baidu import Baidu
-from page.init import  Init
+import  unittest
+from TestCase.UI.page.baidu import Baidu
+from TestCase.UI.page.Init import *
 
 
 class BaiduTest(Init,Baidu):
@@ -16,4 +16,4 @@ class BaiduTest(Init,Baidu):
 		self.assertEqual(self.getKeyword(),'无涯')
 
 if __name__ == '__main__':
-    unittest_1.main(verbosity=2)
+    unittest.main(verbosity=2)

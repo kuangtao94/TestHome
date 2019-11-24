@@ -1,0 +1,31 @@
+1540357089218	geckodriver	INFO	Listening on 127.0.0.1:12996
+1540357092268	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1540357095710	Marionette	INFO	Listening on port 13006
+1540357095919	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540357095987	Marionette	DEBUG	[4294967297] Frame script loaded
+1540357095991	Marionette	DEBUG	[4294967297] Frame script registered
+1540357096128	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for about:blank
+1540357096358	Marionette	DEBUG	[4294967297] Received DOM event pagehide for about:blank
+1540357096778	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for http://192.168.0.111/crm/index.php?m=user&a=login
+1540357096889	Marionette	DEBUG	[4294967297] Received DOM event pageshow for http://192.168.0.111/crm/index.php?m=user&a=login
+1540357097005	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for http://192.168.0.111/crm/index.php?m=user&a=login
+1540357097570	Marionette	DEBUG	[4294967297] Received DOM event pagehide for http://192.168.0.111/crm/index.php?m=user&a=login
+1540357097571	Marionette	DEBUG	[4294967297] Received DOM event unload for http://192.168.0.111/crm/index.php?m=user&a=login
+1540357098484	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for http://192.168.0.111/crm/index.php?m=dynamic&a=index
+1540357098561	Marionette	DEBUG	[4294967297] Received DOM event pageshow for http://192.168.0.111/crm/index.php?m=dynamic&a=index
+1540357098808	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1540357098887	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for http://192.168.0.111/crm/index.php?m=dynamic&a=index
+1540357099154	Marionette	DEBUG	[4294967297] Received DOM event pagehide for http://192.168.0.111/crm/index.php?m=dynamic&a=index
+1540357099157	Marionette	DEBUG	[4294967297] Received DOM event unload for http://192.168.0.111/crm/index.php?m=dynamic&a=index
+1540357099398	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for http://192.168.0.111/crm/index.php?m=user
+1540357099532	Marionette	DEBUG	[4294967297] Received DOM event pageshow for http://192.168.0.111/crm/index.php?m=user
+1540357099575	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for http://192.168.0.111/crm/index.php?m=user
+1540357099827	Marionette	DEBUG	[4294967297] Received DOM event pagehide for http://192.168.0.111/crm/index.php?m=user
+1540357099828	Marionette	DEBUG	[4294967297] Received DOM event unload for http://192.168.0.111/crm/index.php?m=user
+1540357100033	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for http://192.168.0.111/crm/index.php?m=user&a=add
+1540357100057	Marionette	DEBUG	[4294967297] Received DOM event pageshow for http://192.168.0.111/crm/index.php?m=user&a=add
+1540357119959	Marionette	INFO	Stopped listening on port 13006
+[GPU 8664, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: (msgtype=0x4C0004,name=PImageBridge::Msg_WillClose) Channel error: cannot send/recv
+

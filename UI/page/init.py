@@ -3,10 +3,10 @@
 
 #Author:无涯
 
-import  unittest_1
+import  unittest
 from selenium import  webdriver
 
-class  Init(unittest_1.TestCase):
+class  Init(unittest.TestCase):
 	def setUp(self):
 		self.driver = webdriver.Chrome()
 		self.driver.maximize_window()

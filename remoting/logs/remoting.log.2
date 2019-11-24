@@ -1,0 +1,90 @@
+二月 17, 2019 2:42:45 下午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver resolve
+信息: Remoting server accepts the following protocols: [JNLP4-connect, JNLP-connect, Ping, JNLP2-connect, JNLP3-connect]
+二月 17, 2019 3:08:33 下午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.ConnectException Connection refused: connect
+二月 17, 2019 3:08:46 下午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Master isn't ready to talk to us on http://localhost:8080/tcpSlaveAgentListener/. Will try again: response code=503
+二月 17, 2019 3:08:56 下午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Master isn't ready to talk to us on http://localhost:8080/tcpSlaveAgentListener/. Will try again: response code=503
+二月 17, 2019 3:09:06 下午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver resolve
+信息: Remoting server accepts the following protocols: [JNLP4-connect, JNLP-connect, Ping, JNLP2-connect, JNLP3-connect]
+二月 17, 2019 3:11:15 下午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Master isn't ready to talk to us on http://localhost:8080/tcpSlaveAgentListener/. Will try again: response code=503
+二月 17, 2019 3:11:25 下午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Master isn't ready to talk to us on http://localhost:8080/tcpSlaveAgentListener/. Will try again: response code=503
+二月 17, 2019 3:11:36 下午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver resolve
+信息: Remoting server accepts the following protocols: [JNLP4-connect, JNLP-connect, Ping, JNLP2-connect, JNLP3-connect]
+二月 17, 2019 3:12:14 下午 org.jenkinsci.remoting.util.AnonymousClassWarnings warn
+警告: Attempt to (de-)serialize anonymous class org.jenkinsci.plugins.gitclient.Git$1; see: https://jenkins.io/redirect/serialization-of-anonymous-classes/
+二月 17, 2019 3:12:20 下午 org.jenkinsci.remoting.util.AnonymousClassWarnings warn
+警告: Attempt to (de-)serialize anonymous class org.jenkinsci.plugins.gitclient.RemoteGitImpl$CommandInvocationHandler$1; see: https://jenkins.io/redirect/serialization-of-anonymous-classes/
+二月 17, 2019 3:19:12 下午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException Read timed out
+二月 17, 2019 3:19:22 下午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver resolve
+信息: Remoting server accepts the following protocols: [JNLP4-connect, JNLP-connect, Ping, JNLP2-connect, JNLP3-connect]
+二月 17, 2019 7:41:03 下午 org.jenkinsci.remoting.util.AnonymousClassWarnings warn
+警告: Attempt to (de-)serialize anonymous class org.jenkinsci.plugins.gitclient.Git$1; see: https://jenkins.io/redirect/serialization-of-anonymous-classes/
+二月 17, 2019 7:41:07 下午 org.jenkinsci.remoting.util.AnonymousClassWarnings warn
+警告: Attempt to (de-)serialize anonymous class org.jenkinsci.plugins.gitclient.RemoteGitImpl$CommandInvocationHandler$1; see: https://jenkins.io/redirect/serialization-of-anonymous-classes/
+二月 17, 2019 7:41:40 下午 org.jvnet.winp.Native loadByUrl
+警告: Failed to load DLL from static location
+java.lang.UnsatisfiedLinkError: Native Library D:\Test\remoting\jarCache\12\winp.x64.BD89A6734D0147A7868D1B98DB8EF12D.dll already loaded in another classloader
+	at java.lang.ClassLoader.loadLibrary0(Unknown Source)
+	at java.lang.ClassLoader.loadLibrary(Unknown Source)
+	at java.lang.Runtime.load0(Unknown Source)
+	at java.lang.System.load(Unknown Source)
+	at org.jvnet.winp.Native.loadDll(Native.java:243)
+	at org.jvnet.winp.Native.loadByUrl(Native.java:163)
+	at org.jvnet.winp.Native.load(Native.java:125)
+	at org.jvnet.winp.Native.<clinit>(Native.java:94)
+	at org.jvnet.winp.WinProcess.enableDebugPrivilege(WinProcess.java:245)
+	at hudson.util.ProcessTree$Windows.<clinit>(ProcessTree.java:674)
+	at hudson.util.ProcessTree.get(ProcessTree.java:427)
+	at hudson.Launcher$RemoteLauncher$KillTask.call(Launcher.java:1097)
+	at hudson.Launcher$RemoteLauncher$KillTask.call(Launcher.java:1088)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:212)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:54)
+	at hudson.remoting.Request$2.run(Request.java:369)
+	at hudson.remoting.InterceptingExecutorService$1.call(InterceptingExecutorService.java:72)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at hudson.remoting.Engine$1.lambda$newThread$0(Engine.java:93)
+	at java.lang.Thread.run(Unknown Source)
+
+二月 17, 2019 7:55:37 下午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.ConnectException Connection refused: connect
+二月 17, 2019 7:55:48 下午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.ConnectException Connection refused: connect
+二月 17, 2019 7:55:59 下午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.ConnectException Connection refused: connect
+二月 17, 2019 7:56:10 下午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.ConnectException Connection refused: connect
+二月 17, 2019 7:56:21 下午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.ConnectException Connection refused: connect
+二月 17, 2019 7:56:32 下午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.ConnectException Connection refused: connect
+二月 17, 2019 7:56:43 下午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.ConnectException Connection refused: connect
+二月 17, 2019 7:56:54 下午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.ConnectException Connection refused: connect
+二月 17, 2019 7:57:05 下午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.ConnectException Connection refused: connect
+二月 17, 2019 7:57:16 下午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.ConnectException Connection refused: connect
+二月 17, 2019 7:57:27 下午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.ConnectException Connection refused: connect
+二月 17, 2019 7:57:38 下午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.ConnectException Connection refused: connect
+二月 17, 2019 7:57:49 下午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.ConnectException Connection refused: connect
+二月 17, 2019 7:58:00 下午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.ConnectException Connection refused: connect
+二月 17, 2019 7:58:11 下午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.ConnectException Connection refused: connect
+二月 17, 2019 7:58:22 下午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.ConnectException Connection refused: connect
+二月 17, 2019 7:58:33 下午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.ConnectException Connection refused: connect
+二月 17, 2019 7:58:44 下午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.ConnectException Connection refused: connect

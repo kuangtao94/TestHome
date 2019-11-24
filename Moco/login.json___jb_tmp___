@@ -1,0 +1,15 @@
+[
+  {
+    "request":{
+      "method":"post",
+      "uri":"/login",
+      "json":{
+        "username":"XXX",
+        "passwd":"123456"
+      }
+    },
+    "response":{
+      "file":"login_data.json"
+    }
+  }
+]

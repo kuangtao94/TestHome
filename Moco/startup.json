@@ -1,0 +1,35 @@
+[
+  {
+    "description": "这是我的第一个Mock例子",
+    "request": {
+      "method": "post",
+      "uri": "/post",
+      "json": {
+        "pn": "8888888",
+        "name": "xxx",
+        "code": "52222362634624624"
+      }
+    },
+
+    "response":{
+      "file": "data.json"
+    }
+  },
+
+  {
+    "request":{
+      "method":"post",
+      "uri":"/login",
+      "json":{
+        "username":"XXX",
+        "passwd":"123456"
+      }
+    },
+    "response":{
+      "file":"login_data.json"
+    }
+  }
+
+
+
+]

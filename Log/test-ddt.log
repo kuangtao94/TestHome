@@ -1,0 +1,192 @@
+2019-08-04 21:06:35 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:63506/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2019-08-04 21:06:35 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 127.0.0.1:63506
+2019-08-04 21:07:00 urllib3.connectionpool DEBUG http://127.0.0.1:63506 "POST /session HTTP/1.1" 200 1007
+2019-08-04 21:07:00 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2019-08-04 21:07:00 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:63506/session/6e8f7e3d15e1adbe7290ff52d00b3c3d/url {"url": "http://www.baidu.com", "sessionId": "6e8f7e3d15e1adbe7290ff52d00b3c3d"}
+2019-08-04 21:07:03 urllib3.connectionpool DEBUG http://127.0.0.1:63506 "POST /session/6e8f7e3d15e1adbe7290ff52d00b3c3d/url HTTP/1.1" 200 72
+2019-08-04 21:07:03 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2019-08-04 21:07:03 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:63506/session/6e8f7e3d15e1adbe7290ff52d00b3c3d/timeouts/implicit_wait {"ms": 5000.0, "sessionId": "6e8f7e3d15e1adbe7290ff52d00b3c3d"}
+2019-08-04 21:07:03 urllib3.connectionpool DEBUG http://127.0.0.1:63506 "POST /session/6e8f7e3d15e1adbe7290ff52d00b3c3d/timeouts/implicit_wait HTTP/1.1" 200 72
+2019-08-04 21:07:03 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2019-08-04 21:07:03 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:63506/session/6e8f7e3d15e1adbe7290ff52d00b3c3d/window/current/maximize {"windowHandle": "current", "sessionId": "6e8f7e3d15e1adbe7290ff52d00b3c3d"}
+2019-08-04 21:07:03 urllib3.connectionpool DEBUG http://127.0.0.1:63506 "POST /session/6e8f7e3d15e1adbe7290ff52d00b3c3d/window/current/maximize HTTP/1.1" 200 109
+2019-08-04 21:07:03 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2019-08-04 21:07:03 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:63506/session/6e8f7e3d15e1adbe7290ff52d00b3c3d/element {"using": "id", "value": "kw", "sessionId": "6e8f7e3d15e1adbe7290ff52d00b3c3d"}
+2019-08-04 21:07:03 urllib3.connectionpool DEBUG http://127.0.0.1:63506 "POST /session/6e8f7e3d15e1adbe7290ff52d00b3c3d/element HTTP/1.1" 200 102
+2019-08-04 21:07:03 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2019-08-04 21:07:03 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:63506/session/6e8f7e3d15e1adbe7290ff52d00b3c3d/element/0.7787270148745871-1/value {"text": "\u90ce\u5e73", "value": ["\u90ce", "\u5e73"], "id": "0.7787270148745871-1", "sessionId": "6e8f7e3d15e1adbe7290ff52d00b3c3d"}
+2019-08-04 21:07:03 urllib3.connectionpool DEBUG http://127.0.0.1:63506 "POST /session/6e8f7e3d15e1adbe7290ff52d00b3c3d/element/0.7787270148745871-1/value HTTP/1.1" 200 72
+2019-08-04 21:07:03 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2019-08-04 21:07:03 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:63506/session/6e8f7e3d15e1adbe7290ff52d00b3c3d/element {"using": "id", "value": "su", "sessionId": "6e8f7e3d15e1adbe7290ff52d00b3c3d"}
+2019-08-04 21:07:03 urllib3.connectionpool DEBUG http://127.0.0.1:63506 "POST /session/6e8f7e3d15e1adbe7290ff52d00b3c3d/element HTTP/1.1" 200 102
+2019-08-04 21:07:03 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2019-08-04 21:07:03 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:63506/session/6e8f7e3d15e1adbe7290ff52d00b3c3d/element/0.7787270148745871-2/click {"id": "0.7787270148745871-2", "sessionId": "6e8f7e3d15e1adbe7290ff52d00b3c3d"}
+2019-08-04 21:07:03 urllib3.connectionpool DEBUG http://127.0.0.1:63506 "POST /session/6e8f7e3d15e1adbe7290ff52d00b3c3d/element/0.7787270148745871-2/click HTTP/1.1" 200 72
+2019-08-04 21:07:03 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2019-08-04 21:07:06 selenium.webdriver.remote.remote_connection DEBUG GET http://127.0.0.1:63506/session/6e8f7e3d15e1adbe7290ff52d00b3c3d/source {"sessionId": "6e8f7e3d15e1adbe7290ff52d00b3c3d"}
+2019-08-04 21:07:07 urllib3.connectionpool DEBUG http://127.0.0.1:63506 "GET /session/6e8f7e3d15e1adbe7290ff52d00b3c3d/source HTTP/1.1" 200 455430
+2019-08-04 21:07:07 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2019-08-04 21:07:07 root DEBUG 搜索-"郎平",期望-"排球",-通过
+2019-08-04 21:07:07 selenium.webdriver.remote.remote_connection DEBUG DELETE http://127.0.0.1:63506/session/6e8f7e3d15e1adbe7290ff52d00b3c3d {"sessionId": "6e8f7e3d15e1adbe7290ff52d00b3c3d"}
+2019-08-04 21:07:07 urllib3.connectionpool DEBUG http://127.0.0.1:63506 "DELETE /session/6e8f7e3d15e1adbe7290ff52d00b3c3d HTTP/1.1" 200 72
+2019-08-04 21:07:07 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2019-08-04 21:07:11 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:63563/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2019-08-04 21:07:11 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 127.0.0.1:63563
+2019-08-04 21:07:14 urllib3.connectionpool DEBUG http://127.0.0.1:63563 "POST /session HTTP/1.1" 200 1007
+2019-08-04 21:07:14 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2019-08-04 21:07:14 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:63563/session/e1949eb1e42c52f2b2b3ac505a9b7064/url {"url": "http://www.baidu.com", "sessionId": "e1949eb1e42c52f2b2b3ac505a9b7064"}
+2019-08-04 21:07:15 urllib3.connectionpool DEBUG http://127.0.0.1:63563 "POST /session/e1949eb1e42c52f2b2b3ac505a9b7064/url HTTP/1.1" 200 72
+2019-08-04 21:07:15 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2019-08-04 21:07:15 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:63563/session/e1949eb1e42c52f2b2b3ac505a9b7064/timeouts/implicit_wait {"ms": 5000.0, "sessionId": "e1949eb1e42c52f2b2b3ac505a9b7064"}
+2019-08-04 21:07:15 urllib3.connectionpool DEBUG http://127.0.0.1:63563 "POST /session/e1949eb1e42c52f2b2b3ac505a9b7064/timeouts/implicit_wait HTTP/1.1" 200 72
+2019-08-04 21:07:15 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2019-08-04 21:07:15 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:63563/session/e1949eb1e42c52f2b2b3ac505a9b7064/window/current/maximize {"windowHandle": "current", "sessionId": "e1949eb1e42c52f2b2b3ac505a9b7064"}
+2019-08-04 21:07:15 urllib3.connectionpool DEBUG http://127.0.0.1:63563 "POST /session/e1949eb1e42c52f2b2b3ac505a9b7064/window/current/maximize HTTP/1.1" 200 109
+2019-08-04 21:07:15 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2019-08-04 21:07:15 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:63563/session/e1949eb1e42c52f2b2b3ac505a9b7064/element {"using": "id", "value": "kw", "sessionId": "e1949eb1e42c52f2b2b3ac505a9b7064"}
+2019-08-04 21:07:15 urllib3.connectionpool DEBUG http://127.0.0.1:63563 "POST /session/e1949eb1e42c52f2b2b3ac505a9b7064/element HTTP/1.1" 200 101
+2019-08-04 21:07:15 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2019-08-04 21:07:15 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:63563/session/e1949eb1e42c52f2b2b3ac505a9b7064/element/0.309701695312822-1/value {"text": "\u738b\u6960", "value": ["\u738b", "\u6960"], "id": "0.309701695312822-1", "sessionId": "e1949eb1e42c52f2b2b3ac505a9b7064"}
+2019-08-04 21:07:15 urllib3.connectionpool DEBUG http://127.0.0.1:63563 "POST /session/e1949eb1e42c52f2b2b3ac505a9b7064/element/0.309701695312822-1/value HTTP/1.1" 200 72
+2019-08-04 21:07:15 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2019-08-04 21:07:15 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:63563/session/e1949eb1e42c52f2b2b3ac505a9b7064/element {"using": "id", "value": "su", "sessionId": "e1949eb1e42c52f2b2b3ac505a9b7064"}
+2019-08-04 21:07:15 urllib3.connectionpool DEBUG http://127.0.0.1:63563 "POST /session/e1949eb1e42c52f2b2b3ac505a9b7064/element HTTP/1.1" 200 101
+2019-08-04 21:07:15 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2019-08-04 21:07:15 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:63563/session/e1949eb1e42c52f2b2b3ac505a9b7064/element/0.309701695312822-2/click {"id": "0.309701695312822-2", "sessionId": "e1949eb1e42c52f2b2b3ac505a9b7064"}
+2019-08-04 21:07:16 urllib3.connectionpool DEBUG http://127.0.0.1:63563 "POST /session/e1949eb1e42c52f2b2b3ac505a9b7064/element/0.309701695312822-2/click HTTP/1.1" 200 72
+2019-08-04 21:07:16 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2019-08-04 21:07:19 selenium.webdriver.remote.remote_connection DEBUG GET http://127.0.0.1:63563/session/e1949eb1e42c52f2b2b3ac505a9b7064/source {"sessionId": "e1949eb1e42c52f2b2b3ac505a9b7064"}
+2019-08-04 21:07:19 urllib3.connectionpool DEBUG http://127.0.0.1:63563 "GET /session/e1949eb1e42c52f2b2b3ac505a9b7064/source HTTP/1.1" 200 348342
+2019-08-04 21:07:19 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2019-08-04 21:07:19 root DEBUG 搜索-"王楠",期望-"乒乓球",-通过
+2019-08-04 21:07:19 selenium.webdriver.remote.remote_connection DEBUG DELETE http://127.0.0.1:63563/session/e1949eb1e42c52f2b2b3ac505a9b7064 {"sessionId": "e1949eb1e42c52f2b2b3ac505a9b7064"}
+2019-08-04 21:07:19 urllib3.connectionpool DEBUG http://127.0.0.1:63563 "DELETE /session/e1949eb1e42c52f2b2b3ac505a9b7064 HTTP/1.1" 200 72
+2019-08-04 21:07:19 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2019-08-04 21:10:12 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:63662/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2019-08-04 21:10:12 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 127.0.0.1:63662
+2019-08-04 21:10:15 urllib3.connectionpool DEBUG http://127.0.0.1:63662 "POST /session HTTP/1.1" 200 1007
+2019-08-04 21:10:15 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2019-08-04 21:10:15 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:63662/session/053b0762a6c389444ea329bef21e585a/url {"url": "http://www.baidu.com", "sessionId": "053b0762a6c389444ea329bef21e585a"}
+2019-08-04 21:10:20 urllib3.connectionpool DEBUG http://127.0.0.1:63662 "POST /session/053b0762a6c389444ea329bef21e585a/url HTTP/1.1" 200 72
+2019-08-04 21:10:20 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2019-08-04 21:10:20 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:63662/session/053b0762a6c389444ea329bef21e585a/timeouts/implicit_wait {"ms": 5000.0, "sessionId": "053b0762a6c389444ea329bef21e585a"}
+2019-08-04 21:10:20 urllib3.connectionpool DEBUG http://127.0.0.1:63662 "POST /session/053b0762a6c389444ea329bef21e585a/timeouts/implicit_wait HTTP/1.1" 200 72
+2019-08-04 21:10:20 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2019-08-04 21:10:20 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:63662/session/053b0762a6c389444ea329bef21e585a/window/current/maximize {"windowHandle": "current", "sessionId": "053b0762a6c389444ea329bef21e585a"}
+2019-08-04 21:10:20 urllib3.connectionpool DEBUG http://127.0.0.1:63662 "POST /session/053b0762a6c389444ea329bef21e585a/window/current/maximize HTTP/1.1" 200 109
+2019-08-04 21:10:20 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2019-08-04 21:10:20 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:63662/session/053b0762a6c389444ea329bef21e585a/element {"using": "id", "value": "kw", "sessionId": "053b0762a6c389444ea329bef21e585a"}
+2019-08-04 21:10:20 urllib3.connectionpool DEBUG http://127.0.0.1:63662 "POST /session/053b0762a6c389444ea329bef21e585a/element HTTP/1.1" 200 101
+2019-08-04 21:10:20 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2019-08-04 21:10:20 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:63662/session/053b0762a6c389444ea329bef21e585a/element/0.399266987361258-1/value {"text": "\u90ce\u5e73", "value": ["\u90ce", "\u5e73"], "id": "0.399266987361258-1", "sessionId": "053b0762a6c389444ea329bef21e585a"}
+2019-08-04 21:10:20 urllib3.connectionpool DEBUG http://127.0.0.1:63662 "POST /session/053b0762a6c389444ea329bef21e585a/element/0.399266987361258-1/value HTTP/1.1" 200 72
+2019-08-04 21:10:20 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2019-08-04 21:10:20 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:63662/session/053b0762a6c389444ea329bef21e585a/element {"using": "id", "value": "su", "sessionId": "053b0762a6c389444ea329bef21e585a"}
+2019-08-04 21:10:20 urllib3.connectionpool DEBUG http://127.0.0.1:63662 "POST /session/053b0762a6c389444ea329bef21e585a/element HTTP/1.1" 200 101
+2019-08-04 21:10:20 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2019-08-04 21:10:20 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:63662/session/053b0762a6c389444ea329bef21e585a/element/0.399266987361258-2/click {"id": "0.399266987361258-2", "sessionId": "053b0762a6c389444ea329bef21e585a"}
+2019-08-04 21:10:20 urllib3.connectionpool DEBUG http://127.0.0.1:63662 "POST /session/053b0762a6c389444ea329bef21e585a/element/0.399266987361258-2/click HTTP/1.1" 200 72
+2019-08-04 21:10:20 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2019-08-04 21:10:23 selenium.webdriver.remote.remote_connection DEBUG GET http://127.0.0.1:63662/session/053b0762a6c389444ea329bef21e585a/source {"sessionId": "053b0762a6c389444ea329bef21e585a"}
+2019-08-04 21:10:24 urllib3.connectionpool DEBUG http://127.0.0.1:63662 "GET /session/053b0762a6c389444ea329bef21e585a/source HTTP/1.1" 200 459351
+2019-08-04 21:10:24 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2019-08-04 21:10:24 root DEBUG 搜索-"郎平",期望-"程序员",-失败
+2019-08-04 21:10:24 selenium.webdriver.remote.remote_connection DEBUG DELETE http://127.0.0.1:63662/session/053b0762a6c389444ea329bef21e585a {"sessionId": "053b0762a6c389444ea329bef21e585a"}
+2019-08-04 21:10:24 urllib3.connectionpool DEBUG http://127.0.0.1:63662 "DELETE /session/053b0762a6c389444ea329bef21e585a HTTP/1.1" 200 72
+2019-08-04 21:10:24 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2019-08-04 21:10:27 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:63705/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2019-08-04 21:10:27 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 127.0.0.1:63705
+2019-08-04 21:10:34 urllib3.connectionpool DEBUG http://127.0.0.1:63705 "POST /session HTTP/1.1" 200 1007
+2019-08-04 21:10:34 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2019-08-04 21:10:34 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:63705/session/b15ed48fd4cf94ac3b0928f41672a07d/url {"url": "http://www.baidu.com", "sessionId": "b15ed48fd4cf94ac3b0928f41672a07d"}
+2019-08-04 21:10:35 urllib3.connectionpool DEBUG http://127.0.0.1:63705 "POST /session/b15ed48fd4cf94ac3b0928f41672a07d/url HTTP/1.1" 200 72
+2019-08-04 21:10:35 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2019-08-04 21:10:35 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:63705/session/b15ed48fd4cf94ac3b0928f41672a07d/timeouts/implicit_wait {"ms": 5000.0, "sessionId": "b15ed48fd4cf94ac3b0928f41672a07d"}
+2019-08-04 21:10:35 urllib3.connectionpool DEBUG http://127.0.0.1:63705 "POST /session/b15ed48fd4cf94ac3b0928f41672a07d/timeouts/implicit_wait HTTP/1.1" 200 72
+2019-08-04 21:10:35 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2019-08-04 21:10:35 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:63705/session/b15ed48fd4cf94ac3b0928f41672a07d/window/current/maximize {"windowHandle": "current", "sessionId": "b15ed48fd4cf94ac3b0928f41672a07d"}
+2019-08-04 21:10:35 urllib3.connectionpool DEBUG http://127.0.0.1:63705 "POST /session/b15ed48fd4cf94ac3b0928f41672a07d/window/current/maximize HTTP/1.1" 200 109
+2019-08-04 21:10:35 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2019-08-04 21:10:35 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:63705/session/b15ed48fd4cf94ac3b0928f41672a07d/element {"using": "id", "value": "kw", "sessionId": "b15ed48fd4cf94ac3b0928f41672a07d"}
+2019-08-04 21:10:35 urllib3.connectionpool DEBUG http://127.0.0.1:63705 "POST /session/b15ed48fd4cf94ac3b0928f41672a07d/element HTTP/1.1" 200 102
+2019-08-04 21:10:35 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2019-08-04 21:10:35 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:63705/session/b15ed48fd4cf94ac3b0928f41672a07d/element/0.3255797765082038-1/value {"text": "\u738b\u6960", "value": ["\u738b", "\u6960"], "id": "0.3255797765082038-1", "sessionId": "b15ed48fd4cf94ac3b0928f41672a07d"}
+2019-08-04 21:10:35 urllib3.connectionpool DEBUG http://127.0.0.1:63705 "POST /session/b15ed48fd4cf94ac3b0928f41672a07d/element/0.3255797765082038-1/value HTTP/1.1" 200 72
+2019-08-04 21:10:35 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2019-08-04 21:10:35 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:63705/session/b15ed48fd4cf94ac3b0928f41672a07d/element {"using": "id", "value": "su", "sessionId": "b15ed48fd4cf94ac3b0928f41672a07d"}
+2019-08-04 21:10:35 urllib3.connectionpool DEBUG http://127.0.0.1:63705 "POST /session/b15ed48fd4cf94ac3b0928f41672a07d/element HTTP/1.1" 200 102
+2019-08-04 21:10:35 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2019-08-04 21:10:35 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:63705/session/b15ed48fd4cf94ac3b0928f41672a07d/element/0.3255797765082038-2/click {"id": "0.3255797765082038-2", "sessionId": "b15ed48fd4cf94ac3b0928f41672a07d"}
+2019-08-04 21:10:35 urllib3.connectionpool DEBUG http://127.0.0.1:63705 "POST /session/b15ed48fd4cf94ac3b0928f41672a07d/element/0.3255797765082038-2/click HTTP/1.1" 200 72
+2019-08-04 21:10:35 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2019-08-04 21:10:38 selenium.webdriver.remote.remote_connection DEBUG GET http://127.0.0.1:63705/session/b15ed48fd4cf94ac3b0928f41672a07d/source {"sessionId": "b15ed48fd4cf94ac3b0928f41672a07d"}
+2019-08-04 21:10:38 urllib3.connectionpool DEBUG http://127.0.0.1:63705 "GET /session/b15ed48fd4cf94ac3b0928f41672a07d/source HTTP/1.1" 200 348066
+2019-08-04 21:10:38 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2019-08-04 21:10:38 root DEBUG 搜索-"王楠",期望-"乒乓球",-通过
+2019-08-04 21:10:38 selenium.webdriver.remote.remote_connection DEBUG DELETE http://127.0.0.1:63705/session/b15ed48fd4cf94ac3b0928f41672a07d {"sessionId": "b15ed48fd4cf94ac3b0928f41672a07d"}
+2019-08-04 21:10:38 urllib3.connectionpool DEBUG http://127.0.0.1:63705 "DELETE /session/b15ed48fd4cf94ac3b0928f41672a07d HTTP/1.1" 200 72
+2019-08-04 21:10:38 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2019-09-02 21:32:56 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:50564/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2019-09-02 21:32:56 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 127.0.0.1:50564
+2019-09-02 21:33:09 urllib3.connectionpool DEBUG http://127.0.0.1:50564 "POST /session HTTP/1.1" 200 1005
+2019-09-02 21:33:09 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2019-09-02 21:33:09 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:50564/session/f9985a54349c6ad095ec82705b7f20d7/url {"url": "http://www.baidu.com", "sessionId": "f9985a54349c6ad095ec82705b7f20d7"}
+2019-09-02 21:33:18 urllib3.connectionpool DEBUG http://127.0.0.1:50564 "POST /session/f9985a54349c6ad095ec82705b7f20d7/url HTTP/1.1" 200 72
+2019-09-02 21:33:18 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2019-09-02 21:33:18 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:50564/session/f9985a54349c6ad095ec82705b7f20d7/timeouts/implicit_wait {"ms": 5000.0, "sessionId": "f9985a54349c6ad095ec82705b7f20d7"}
+2019-09-02 21:33:18 urllib3.connectionpool DEBUG http://127.0.0.1:50564 "POST /session/f9985a54349c6ad095ec82705b7f20d7/timeouts/implicit_wait HTTP/1.1" 200 72
+2019-09-02 21:33:18 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2019-09-02 21:33:18 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:50564/session/f9985a54349c6ad095ec82705b7f20d7/window/current/maximize {"windowHandle": "current", "sessionId": "f9985a54349c6ad095ec82705b7f20d7"}
+2019-09-02 21:33:18 urllib3.connectionpool DEBUG http://127.0.0.1:50564 "POST /session/f9985a54349c6ad095ec82705b7f20d7/window/current/maximize HTTP/1.1" 200 109
+2019-09-02 21:33:18 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2019-09-02 21:33:18 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:50564/session/f9985a54349c6ad095ec82705b7f20d7/element {"using": "id", "value": "kw", "sessionId": "f9985a54349c6ad095ec82705b7f20d7"}
+2019-09-02 21:33:18 urllib3.connectionpool DEBUG http://127.0.0.1:50564 "POST /session/f9985a54349c6ad095ec82705b7f20d7/element HTTP/1.1" 200 102
+2019-09-02 21:33:18 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2019-09-02 21:33:18 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:50564/session/f9985a54349c6ad095ec82705b7f20d7/element/0.2862662673153622-1/value {"text": "\u90ce\u5e73", "value": ["\u90ce", "\u5e73"], "id": "0.2862662673153622-1", "sessionId": "f9985a54349c6ad095ec82705b7f20d7"}
+2019-09-02 21:33:18 urllib3.connectionpool DEBUG http://127.0.0.1:50564 "POST /session/f9985a54349c6ad095ec82705b7f20d7/element/0.2862662673153622-1/value HTTP/1.1" 200 72
+2019-09-02 21:33:18 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2019-09-02 21:33:18 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:50564/session/f9985a54349c6ad095ec82705b7f20d7/element {"using": "id", "value": "su", "sessionId": "f9985a54349c6ad095ec82705b7f20d7"}
+2019-09-02 21:33:18 urllib3.connectionpool DEBUG http://127.0.0.1:50564 "POST /session/f9985a54349c6ad095ec82705b7f20d7/element HTTP/1.1" 200 102
+2019-09-02 21:33:18 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2019-09-02 21:33:18 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:50564/session/f9985a54349c6ad095ec82705b7f20d7/element/0.2862662673153622-2/click {"id": "0.2862662673153622-2", "sessionId": "f9985a54349c6ad095ec82705b7f20d7"}
+2019-09-02 21:33:19 urllib3.connectionpool DEBUG http://127.0.0.1:50564 "POST /session/f9985a54349c6ad095ec82705b7f20d7/element/0.2862662673153622-2/click HTTP/1.1" 200 72
+2019-09-02 21:33:19 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2019-09-02 21:33:22 selenium.webdriver.remote.remote_connection DEBUG GET http://127.0.0.1:50564/session/f9985a54349c6ad095ec82705b7f20d7/source {"sessionId": "f9985a54349c6ad095ec82705b7f20d7"}
+2019-09-02 21:33:22 urllib3.connectionpool DEBUG http://127.0.0.1:50564 "GET /session/f9985a54349c6ad095ec82705b7f20d7/source HTTP/1.1" 200 464539
+2019-09-02 21:33:22 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2019-09-02 21:33:22 root DEBUG 搜索-"郎平",期望-"程序员",-失败
+2019-09-02 21:33:22 selenium.webdriver.remote.remote_connection DEBUG DELETE http://127.0.0.1:50564/session/f9985a54349c6ad095ec82705b7f20d7 {"sessionId": "f9985a54349c6ad095ec82705b7f20d7"}
+2019-09-02 21:33:22 urllib3.connectionpool DEBUG http://127.0.0.1:50564 "DELETE /session/f9985a54349c6ad095ec82705b7f20d7 HTTP/1.1" 200 72
+2019-09-02 21:33:22 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2019-09-02 21:33:24 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:50626/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2019-09-02 21:33:24 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 127.0.0.1:50626
+2019-09-02 21:33:27 urllib3.connectionpool DEBUG http://127.0.0.1:50626 "POST /session HTTP/1.1" 200 1007
+2019-09-02 21:33:27 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2019-09-02 21:33:27 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:50626/session/b0b8c22e4be96fca37c0788ed3f57ed9/url {"url": "http://www.baidu.com", "sessionId": "b0b8c22e4be96fca37c0788ed3f57ed9"}
+2019-09-02 21:33:28 urllib3.connectionpool DEBUG http://127.0.0.1:50626 "POST /session/b0b8c22e4be96fca37c0788ed3f57ed9/url HTTP/1.1" 200 72
+2019-09-02 21:33:28 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2019-09-02 21:33:28 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:50626/session/b0b8c22e4be96fca37c0788ed3f57ed9/timeouts/implicit_wait {"ms": 5000.0, "sessionId": "b0b8c22e4be96fca37c0788ed3f57ed9"}
+2019-09-02 21:33:28 urllib3.connectionpool DEBUG http://127.0.0.1:50626 "POST /session/b0b8c22e4be96fca37c0788ed3f57ed9/timeouts/implicit_wait HTTP/1.1" 200 72
+2019-09-02 21:33:28 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2019-09-02 21:33:28 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:50626/session/b0b8c22e4be96fca37c0788ed3f57ed9/window/current/maximize {"windowHandle": "current", "sessionId": "b0b8c22e4be96fca37c0788ed3f57ed9"}
+2019-09-02 21:33:29 urllib3.connectionpool DEBUG http://127.0.0.1:50626 "POST /session/b0b8c22e4be96fca37c0788ed3f57ed9/window/current/maximize HTTP/1.1" 200 109
+2019-09-02 21:33:29 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2019-09-02 21:33:29 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:50626/session/b0b8c22e4be96fca37c0788ed3f57ed9/element {"using": "id", "value": "kw", "sessionId": "b0b8c22e4be96fca37c0788ed3f57ed9"}
+2019-09-02 21:33:29 urllib3.connectionpool DEBUG http://127.0.0.1:50626 "POST /session/b0b8c22e4be96fca37c0788ed3f57ed9/element HTTP/1.1" 200 103
+2019-09-02 21:33:29 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2019-09-02 21:33:29 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:50626/session/b0b8c22e4be96fca37c0788ed3f57ed9/element/0.46113721593454504-1/value {"text": "\u738b\u6960", "value": ["\u738b", "\u6960"], "id": "0.46113721593454504-1", "sessionId": "b0b8c22e4be96fca37c0788ed3f57ed9"}
+2019-09-02 21:33:29 urllib3.connectionpool DEBUG http://127.0.0.1:50626 "POST /session/b0b8c22e4be96fca37c0788ed3f57ed9/element/0.46113721593454504-1/value HTTP/1.1" 200 72
+2019-09-02 21:33:29 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2019-09-02 21:33:29 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:50626/session/b0b8c22e4be96fca37c0788ed3f57ed9/element {"using": "id", "value": "su", "sessionId": "b0b8c22e4be96fca37c0788ed3f57ed9"}
+2019-09-02 21:33:29 urllib3.connectionpool DEBUG http://127.0.0.1:50626 "POST /session/b0b8c22e4be96fca37c0788ed3f57ed9/element HTTP/1.1" 200 103
+2019-09-02 21:33:29 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2019-09-02 21:33:29 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:50626/session/b0b8c22e4be96fca37c0788ed3f57ed9/element/0.46113721593454504-2/click {"id": "0.46113721593454504-2", "sessionId": "b0b8c22e4be96fca37c0788ed3f57ed9"}
+2019-09-02 21:33:29 urllib3.connectionpool DEBUG http://127.0.0.1:50626 "POST /session/b0b8c22e4be96fca37c0788ed3f57ed9/element/0.46113721593454504-2/click HTTP/1.1" 200 72
+2019-09-02 21:33:29 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2019-09-02 21:33:32 selenium.webdriver.remote.remote_connection DEBUG GET http://127.0.0.1:50626/session/b0b8c22e4be96fca37c0788ed3f57ed9/source {"sessionId": "b0b8c22e4be96fca37c0788ed3f57ed9"}
+2019-09-02 21:33:32 urllib3.connectionpool DEBUG http://127.0.0.1:50626 "GET /session/b0b8c22e4be96fca37c0788ed3f57ed9/source HTTP/1.1" 200 344757
+2019-09-02 21:33:32 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2019-09-02 21:33:32 root DEBUG 搜索-"王楠",期望-"乒乓球",-通过
+2019-09-02 21:33:32 selenium.webdriver.remote.remote_connection DEBUG DELETE http://127.0.0.1:50626/session/b0b8c22e4be96fca37c0788ed3f57ed9 {"sessionId": "b0b8c22e4be96fca37c0788ed3f57ed9"}
+2019-09-02 21:33:32 urllib3.connectionpool DEBUG http://127.0.0.1:50626 "DELETE /session/b0b8c22e4be96fca37c0788ed3f57ed9 HTTP/1.1" 200 72
+2019-09-02 21:33:32 selenium.webdriver.remote.remote_connection DEBUG Finished Request

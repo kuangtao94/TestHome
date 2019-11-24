@@ -1,0 +1,6 @@
+三月 16, 2019 4:07:27 下午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver resolve
+信息: Remoting server accepts the following protocols: [JNLP4-connect, JNLP-connect, Ping, JNLP2-connect, JNLP3-connect]
+三月 16, 2019 4:07:47 下午 org.jenkinsci.remoting.util.AnonymousClassWarnings warn
+警告: Attempt to (de-)serialize anonymous class org.jenkinsci.plugins.gitclient.Git$1; see: https://jenkins.io/redirect/serialization-of-anonymous-classes/
+三月 16, 2019 4:08:02 下午 org.jenkinsci.remoting.util.AnonymousClassWarnings warn
+警告: Attempt to (de-)serialize anonymous class org.jenkinsci.plugins.gitclient.RemoteGitImpl$CommandInvocationHandler$1; see: https://jenkins.io/redirect/serialization-of-anonymous-classes/

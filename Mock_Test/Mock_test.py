@@ -1,9 +1,9 @@
-from Mock_Test import Client_Mock
-import unittest_1
-from unittest_1 import mock
+from TestCase.Mock_Test import Client_Mock
+import unittest
+from unittest import mock
 
 
-class Mock_Test(unittest_1.TestCase):
+class Mock_Test(unittest.TestCase):
 
     def setUp(self):
         self.r = Client_Mock.Remove()
@@ -29,4 +29,4 @@ class Mock_Test(unittest_1.TestCase):
         self.assertEqual(self.r.exists_get_rmdir(),remove_fail())
 
 if __name__ == '__main__':
-    unittest_1.main(verbosity=2)
+    unittest.main(verbosity=2)

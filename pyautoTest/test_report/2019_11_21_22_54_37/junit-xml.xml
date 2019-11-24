@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite errors="1" failures="0" hostname="SIU3T9VIUQ28JLM" name="pytest" skipped="0" tests="1" time="2.155" timestamp="2019-11-21T22:54:44.053752"><testcase classname="pytest" name="internal" time="0.000"><error message="internal error">Traceback (most recent call last):
+  File &quot;D:\Program Files\python36\lib\site-packages\_pytest\main.py&quot;, line 196, in wrap_session
+    session.exitstatus = doit(config, session) or 0
+  File &quot;D:\Program Files\python36\lib\site-packages\_pytest\main.py&quot;, line 239, in _main
+    config.hook.pytest_collection(session=session)
+  File &quot;D:\Program Files\python36\lib\site-packages\pluggy\hooks.py&quot;, line 286, in __call__
+    return self._hookexec(self, self.get_hookimpls(), kwargs)
+  File &quot;D:\Program Files\python36\lib\site-packages\pluggy\manager.py&quot;, line 92, in _hookexec
+    return self._inner_hookexec(hook, methods, kwargs)
+  File &quot;D:\Program Files\python36\lib\site-packages\pluggy\manager.py&quot;, line 86, in &lt;lambda&gt;
+    firstresult=hook.spec.opts.get(&quot;firstresult&quot;) if hook.spec else False,
+  File &quot;D:\Program Files\python36\lib\site-packages\pluggy\callers.py&quot;, line 208, in _multicall
+    return outcome.get_result()
+  File &quot;D:\Program Files\python36\lib\site-packages\pluggy\callers.py&quot;, line 80, in get_result
+    raise ex[1].with_traceback(ex[2])
+  File &quot;D:\Program Files\python36\lib\site-packages\pluggy\callers.py&quot;, line 187, in _multicall
+    res = hook_impl.function(*args)
+  File &quot;D:\Program Files\python36\lib\site-packages\_pytest\main.py&quot;, line 249, in pytest_collection
+    return session.perform_collect()
+  File &quot;D:\Program Files\python36\lib\site-packages\_pytest\main.py&quot;, line 449, in perform_collect
+    self.config.pluginmanager.check_pending()
+  File &quot;D:\Program Files\python36\lib\site-packages\pluggy\manager.py&quot;, line 275, in check_pending
+    % (name, hookimpl.plugin),
+pluggy.manager.PluginValidationError: unknown hook &apos;pytest_namespace&apos; in plugin &lt;module &apos;allure.pytest_plugin&apos; from &apos;D:\\Program Files\\python36\\lib\\site-packages\\allure\\pytest_plugin.py&apos;&gt;</error></testcase></testsuite></testsuites>

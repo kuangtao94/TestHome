@@ -1,6 +1,6 @@
 import smtplib
-from email.mime.text import MIMEText
-from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText  #邮件的模板
+from email.mime.multipart import MIMEMultipart #附件的模板
 
 # ----------1.跟发件相关的参数------
 
@@ -9,16 +9,17 @@ smtpserver = "smtp.163.com" # 发件服务器
 port = 25 # 端口
 #sender = "XXXX" # 账号
 sender = "18797815816@163.com"
-psw = "password"
+psw = "qqq123..."
 #psw = "wmqtqbtnmyamhfjd" # 密码
 receiver = "1512500241@qq.com" # 单个接收人也可以是 list
 # receiver = ["1512500241@qq.com"] # 多个收件人 list 对象
 
 # ----------2.编辑邮件的内容------
 # 读文件
-file_path = "result.html"
+file_path = "table.html"
 with open(file_path, "rb") as fp:
     mail_body = fp.read()
+
 msg = MIMEMultipart()
 msg["from"] = sender # 发件人
 msg["to"] = receiver

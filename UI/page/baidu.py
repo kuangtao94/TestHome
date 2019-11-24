@@ -3,7 +3,7 @@
 
 #Author:无涯
 
-from base.base import *
+from TestCase.UI.base.base import *
 from selenium.webdriver.common.by import By
 
 class Baidu(WebUi):
@@ -16,4 +16,3 @@ class Baidu(WebUi):
 	def getKeyword(self):
 		'''返回输入的搜索关键字'''
 		return self.findElement(*self.so_loc).get_attribute('value')
-

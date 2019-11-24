@@ -3,7 +3,7 @@
 
 #Author:无涯
 
-import  unittest_1
+import  unittest
 from selenium import  webdriver
 from page.baidu import Baidu
 import  time
@@ -15,4 +15,4 @@ class BaiduTest(Init,Baidu):
 		time.sleep(6)
 
 if __name__ == '__main__':
-    unittest_1.main(verbosity=2)
+    unittest.main(verbosity=2)

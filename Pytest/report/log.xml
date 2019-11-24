@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="2" name="pytest" skips="0" tests="19" time="0.458"><testcase classname="test_dir.test_assert" file="test_dir\test_assert.py" line="20" name="test_add_1" time="0.00700068473815918"></testcase><testcase classname="test_dir.test_assert" file="test_dir\test_assert.py" line="24" name="test_add_2" time="0.002000093460083008"></testcase><testcase classname="test_dir.test_assert" file="test_dir\test_assert.py" line="28" name="test_add_3" time="0.002000093460083008"></testcase><testcase classname="test_dir.test_assert" file="test_dir\test_assert.py" line="32" name="test_add_4" time="0.002000093460083008"></testcase><testcase classname="test_dir.test_assert" file="test_dir\test_assert.py" line="36" name="test_in" time="0.0030002593994140625"><failure message="AssertionError: assert &apos;he&apos; in &apos;Hello&apos;">def test_in():
+        a = &apos;Hello&apos;
+        b = &apos;he&apos;
+&gt;       assert b in a
+E       AssertionError: assert &apos;he&apos; in &apos;Hello&apos;
+
+test_dir\test_assert.py:40: AssertionError</failure></testcase><testcase classname="test_dir.test_assert" file="test_dir\test_assert.py" line="42" name="test_not_in" time="0.0009999275207519531"></testcase><testcase classname="test_dir.test_assert" file="test_dir\test_assert.py" line="48" name="test_true_1" time="0.002000093460083008"></testcase><testcase classname="test_dir.test_assert" file="test_dir\test_assert.py" line="52" name="test_true_2" time="0.0030002593994140625"></testcase><testcase classname="test_dir.test_assert" file="test_dir\test_assert.py" line="56" name="test_true_3" time="0.0019998550415039062"><failure message="assert False
+ +  where False = is_prime(4)">def test_true_3():
+&gt;       assert is_prime(4)
+E       assert False
+E        +  where False = is_prime(4)
+
+test_dir\test_assert.py:58: AssertionError</failure></testcase><testcase classname="test_dir.test_assert" file="test_dir\test_assert.py" line="60" name="test_true_4" time="0.0009999275207519531"></testcase><testcase classname="test_dir.test_assert" file="test_dir\test_assert.py" line="64" name="test_false_1" time="0.0010001659393310547"></testcase><testcase classname="test_dir.test_fixtures_01" file="test_dir\test_fixtures_01.py" line="32" name="test_multiply_3_4" time="0.003000020980834961"><system-out>setup_module------------&gt;
+setup_function----------&gt;
+setup----------&gt;
+test_numbers_3_4
+teardown-------&gt;
+teardown_function--------&gt;
+</system-out></testcase><testcase classname="test_dir.test_fixtures_01" file="test_dir\test_fixtures_01.py" line="36" name="test_multiply_a_3" time="0.002000093460083008"><system-out>setup_function----------&gt;
+setup----------&gt;
+test_numbers_a_3
+teardown-------&gt;
+teardown_function--------&gt;
+teardown_module---------&gt;
+</system-out></testcase><testcase classname="test_dir.test_fixtures_02.TestMultiply" file="test_dir\test_fixtures_02.py" line="36" name="test_multiply_5_6" time="0.003999948501586914"><system-out>setup_class------------&gt;
+setup----------&gt;
+test_numbers_5_6
+teardown-------&gt;
+</system-out></testcase><testcase classname="test_dir.test_fixtures_02.TestMultiply" file="test_dir\test_fixtures_02.py" line="40" name="test_multiply_b_3" time="0.0030002593994140625"><system-out>setup----------&gt;
+test_numbers_b_3
+teardown-------&gt;
+teardown_class---------&gt;
+</system-out></testcase><testcase classname="test_dir.test_parameterize" file="test_dir\test_parameterize.py" line="12" name="test_pow[case1]" time="0.002000093460083008"></testcase><testcase classname="test_dir.test_parameterize" file="test_dir\test_parameterize.py" line="12" name="test_pow[case2]" time="0.0019998550415039062"></testcase><testcase classname="test_dir.test_parameterize" file="test_dir\test_parameterize.py" line="12" name="test_pow[case3]" time="0.003000020980834961"></testcase><testcase classname="test_dir.test_parameterize" file="test_dir\test_parameterize.py" line="12" name="test_pow[case4]" time="0.0020003318786621094"></testcase></testsuite>

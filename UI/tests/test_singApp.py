@@ -4,15 +4,15 @@
 #author:wuya
 
 
-import  unittest_1
+import  unittest
 import  time as t
 from appium import  webdriver
-from page.singApp import SinaLogin
+from TestCase.UI.page.singApp import SinaLogin
 import  warnings
 
 
 
-class SingAppTest(unittest_1.TestCase, SinaLogin):
+class SingAppTest(unittest.TestCase, SinaLogin):
 	def setUp(self):
 		warnings.simplefilter('ignore', ResourceWarning)
 		desired_caps={}
@@ -37,5 +37,5 @@ class SingAppTest(unittest_1.TestCase, SinaLogin):
 		self.driver.quit()
 
 if __name__ == '__main__':
-    unittest_1.main(verbosity=2)
+    unittest.main(verbosity=2)
 

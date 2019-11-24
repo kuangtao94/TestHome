@@ -1,0 +1,10 @@
+2018-10-26 08:55:43,903 ERROR   :元素找不到('xpath', '//*[@id="form1"]/table/tbody/tr[1]/td[3]/a')
+2018-10-26 08:55:57,536 ERROR   :元素找不到('xpath', '//*[@id="form1"]/table/tbody/tr[15]/td[1]/input')
+2018-10-26 08:55:57,538 ERROR   :点击失败//*[@id="form1"]/table/tbody/tr[15]/td[1]/input
+2018-10-26 08:56:02,835 ERROR   :元素找不到('xpath', '//*[@id="form1"]/table/tbody/tr[2]/td[1]/input')
+2018-10-26 08:56:02,835 ERROR   :点击失败//*[@id="form1"]/table/tbody/tr[2]/td[1]/input
+2018-10-26 08:56:52,763 ERROR   :元素找不到('xpath', '//*[@id="form1"]/table/tbody/tr[1]/td[3]/a')
+2018-10-29 21:11:52,234 INFO    :text1
+2019-10-26 10:12:08,884 ERROR   :kkk
+2019-10-26 10:12:08,885 WARNING :test1
+2019-10-26 10:12:08,885 ERROR   :test2

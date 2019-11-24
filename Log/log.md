@@ -1,0 +1,9 @@
+2019-10-21 20:46:27,045--INFO-logtest1:初始化浏览器
+2019-10-21 20:46:27,047--INFO-logtest1:开始测试
+2019-10-21 20:46:27,048--INFO-logtest1:测试结束
+2019-10-21 20:47:15,278-logTest-INFO-logtest1:初始化浏览器
+2019-10-21 20:47:15,280-logTest-INFO-logtest1:开始测试
+2019-10-21 20:47:15,281-logTest-INFO-logtest1:测试结束
+2019-10-21 21:04:41,700-logTest-INFO-logtest1:初始化浏览器
+2019-10-21 21:04:41,704-logTest-INFO-logtest1:开始测试
+2019-10-21 21:04:41,706-logTest-INFO-logtest1:测试结束

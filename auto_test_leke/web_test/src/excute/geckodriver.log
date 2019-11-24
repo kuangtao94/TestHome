@@ -1,0 +1,43 @@
+1540287788561	geckodriver	INFO	Listening on 127.0.0.1:24625
+1540287791597	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1540287794458	Marionette	INFO	Listening on port 24641
+1540287794769	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540287794825	Marionette	DEBUG	[6442450945] Frame script loaded
+1540287794839	Marionette	DEBUG	[6442450945] Frame script registered
+1540287794878	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1540287795104	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1540287795404	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://192.168.0.111/crm/index.php?m=user&a=login
+1540287795431	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://192.168.0.111/crm/index.php?m=user&a=login
+1540287795600	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://192.168.0.111/crm/index.php?m=user&a=login
+1540287796138	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://192.168.0.111/crm/index.php?m=user&a=login
+1540287796139	Marionette	DEBUG	[6442450945] Received DOM event unload for http://192.168.0.111/crm/index.php?m=user&a=login
+1540287796632	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://192.168.0.111/crm/index.php?m=dynamic&a=index
+1540287796680	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://192.168.0.111/crm/index.php?m=dynamic&a=index
+1540287796718	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://192.168.0.111/crm/index.php?m=dynamic&a=index
+1540287797096	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://192.168.0.111/crm/index.php?m=dynamic&a=index
+1540287797097	Marionette	DEBUG	[6442450945] Received DOM event unload for http://192.168.0.111/crm/index.php?m=dynamic&a=index
+1540287797383	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://192.168.0.111/crm/index.php?m=leads
+1540287797446	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://192.168.0.111/crm/index.php?m=leads
+1540287797474	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://192.168.0.111/crm/index.php?m=leads
+1540287797768	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://192.168.0.111/crm/index.php?m=leads
+1540287797769	Marionette	DEBUG	[6442450945] Received DOM event unload for http://192.168.0.111/crm/index.php?m=leads
+1540287798060	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://192.168.0.111/crm/index.php?m=leads&a=add
+1540287798096	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://192.168.0.111/crm/index.php?m=leads&a=add
+1540287798404	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1540287798634	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1540287798882	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1540287800082	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://192.168.0.111/crm/index.php?m=leads&a=add
+1540287800442	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://192.168.0.111/crm/index.php?m=leads&a=add
+1540287800443	Marionette	DEBUG	[6442450945] Received DOM event unload for http://192.168.0.111/crm/index.php?m=leads&a=add
+1540287800666	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450952
+1540287800713	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://192.168.0.111/crm/index.php?m=leads&a=add
+1540287800757	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://192.168.0.111/crm/index.php?m=leads&a=add
+[Child 8828, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8828, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9220, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 11116, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11020, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11020, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 11116, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+1540287837374	Marionette	INFO	Stopped listening on port 24641
+[GPU 4356, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346

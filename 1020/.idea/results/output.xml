@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.0.4 (Python 3.6.5 on win32)" generated="20181103 17:59:16.666">
+<suite id="s1" name="Test" source="D:\Program Files\python36\1020\.idea\test.txt">
+<test id="s1-t1" name="test01">
+<kw name="Open Browser">
+<arguments>
+<arg>https://login.taobao.com/member/login.jhtml</arg>
+<arg>Chrome</arg>
+</arguments>
+<msg timestamp="20181103 17:59:16.990" level="FAIL">No keyword with name 'Open Browser' found.</msg>
+<status status="FAIL" starttime="20181103 17:59:16.990" endtime="20181103 17:59:16.991"></status>
+</kw>
+<doc>测试淘宝</doc>
+<status status="FAIL" starttime="20181103 17:59:16.957" endtime="20181103 17:59:16.993" critical="yes">No keyword with name 'Open Browser' found.</status>
+</test>
+<status status="FAIL" starttime="20181103 17:59:16.678" endtime="20181103 17:59:16.997"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1">Critical Tests</stat>
+<stat pass="0" fail="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" id="s1" name="Test">Test</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20181103 17:59:16.541" level="ERROR">Error in file 'D:\Program Files\python36\1020\.idea\test.txt': Non-existing setting 'Selenium3 Library'.</msg>
+<msg timestamp="20181103 17:59:16.953" level="ERROR">Error in file 'D:\Program Files\python36\1020\.idea\test.txt': Library setting requires a name</msg>
+</errors>
+</robot>

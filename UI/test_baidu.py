@@ -1,10 +1,10 @@
 #!/usr/bin/env python
 #coding:utf-8
 
-import unittest_1
+import unittest
 from selenium import  webdriver
 
-class Baidu(unittest_1.TestCase):
+class Baidu(unittest.TestCase):
 	def setUp(self):
 		self.driver=webdriver.Chrome()
 		self.driver.maximize_window()
@@ -30,4 +30,4 @@ class Baidu(unittest_1.TestCase):
 
 
 if __name__ == '__main__':
-    unittest_1.main(verbosity=2)
+    unittest.main(verbosity=2)
